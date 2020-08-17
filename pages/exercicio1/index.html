@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="jumbotron text-center">
+    <h1>Atividade 01 (12/08/2020)</h1>
+    <p>
+      Encontre a raiz do exercicio 
+    </p>
+  </div>
+  <div class="container p-3 my-3 border">
+    <div class="card bg-light text-dark">
+      <div class="card-body">
+        <form name="form1">
+          <div class="form-group">
+            <label for="usr">a:</label>
+            <input type="number" name="a" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="usr">b:</label>
+            <input type="number" name="b" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="usr">10^-:</label>
+            <input type="number" name="erro" class="form-control" id="usr">
+          </div>
+          <button type="button" class="btn btn-primary btn-block" onclick="resolver(a.value,b.value,erro.value)">Resolver</button>
+        </form>
+      </div>
+    </div>
+    <br>
+    <div class="card bg-light text-dark">
+      <div class="card-body">
+        <div id="tabela"></div>
+      </div>
+    </div>
+  </div>
+  <script src="../../js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
