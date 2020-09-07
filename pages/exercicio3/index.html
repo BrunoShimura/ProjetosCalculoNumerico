@@ -9,24 +9,74 @@
 </head>
 <body>
   <div class="jumbotron text-center">
-    <h1>Atividade 02 (12/08/2020)</h1>
+    <h1>Atividade 03 (02/09/2020)</h1>
     <p>
-      Encontre a raiz do exercicio 
+      Resolva o sistema linear (Método de Gauss-Seidel)
     </p>
   </div>
   <div class="container p-3 my-3 border">
     <div class="card bg-light text-dark">
       <div class="card-body">
         <form name="form1">
-          <div class="form-group">
-            <label for="usr">x:</label>
-            <input type="number" name="a" class="form-control" id="usr">
+          <div class="form-group row">
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="00">
+            </div> 
+            <label for="example-number-input" class="col-form-label">x</label>
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="01">
+            </div> 
+            <label for="example-number-input" class="col-form-label">y</label>
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="02">
+            </div> 
+            <label for="example-number-input" class="col-form-label">z</label>
+            <label for="example-number-input" class="col-form-label"> = </label>
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="03">
+            </div> 
           </div>
-          <div class="form-group">
-            <label for="usr">10^-:</label>
-            <input type="number" name="erro" class="form-control" id="usr">
+          <div class="form-group row">
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="10">
+            </div> 
+            <label for="example-number-input" class="col-form-label">x</label>
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="11">
+            </div> 
+            <label for="example-number-input" class="col-form-label">y</label>
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="12">
+            </div> 
+            <label for="example-number-input" class="col-form-label">z</label>
+            <label for="example-number-input" class="col-form-label"> = </label>
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="13">
+            </div> 
           </div>
-          <button type="button" class="btn btn-primary btn-block" onclick="resolver(a.value)">Resolver</button>
+          <div class="form-group row">
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="20">
+            </div> 
+            <label for="example-number-input" class="col-form-label">x</label>
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="21">
+            </div> 
+            <label for="example-number-input" class="col-form-label">y</label>
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="22">
+            </div> 
+            <label for="example-number-input" class="col-form-label">z</label>
+            <label for="example-number-input" class="col-form-label"> = </label>
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="23">
+            </div> 
+            <label for="example-number-input" class="col-form-label">Erro menor que 10^</label>
+            <div class="col-2">
+              <input class="form-control" step="0.01" type="number" value="" id="erro">
+            </div> 
+          </div>
+          <button type="button" class="btn btn-primary btn-block" onclick="resolver()">Resolver</button>
         </form>
       </div>
     </div>
