@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="jumbotron text-center">
+    <h1>Atividade 04 (07/08/2020)</h1>
+    <p>
+      Regra do trapézios
+    </p>
+  </div>
+  <div class="container p-3 my-3 border">
+    <div class="card bg-light text-dark">
+      <div class="card-body">
+        <form name="form1">
+          <div class="form-group">
+            <label for="usr">x0:</label>
+            <input type="number" name="a" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="usr">x1:</label>
+            <input type="number" name="a" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="usr">x2:</label>
+            <input type="number" name="a" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="usr">f(x):</label>
+            <input type="number" name="erro" class="form-control" id="usr">
+          </div>
+          <button type="button" class="btn btn-primary btn-block" onclick="resolver(a.value)">Resolver</button>
+        </form>
+      </div>
+    </div>
+    <br>
+    <div class="card bg-light text-dark">
+      <div class="card-body">
+        <div class="form-group">
+          <label for="usr">L0​(x)=(x−2.5)∗(x−4)/(2−2.5)∗(2−4) = (x-2.5)*(x-4)</label>
+        </div>
+        <div class="form-group">
+          <label for="usr">L1​(x)=(x−2)∗(x−4)/(2.5−2)∗(2.5−4) = (x-2)(x-4)/0.75</label>
+        </div>
+        <div class="form-group">
+          <label for="usr">L2​(x)=(x−2)∗(x−2.5)/(4−2)∗(4−2.5) = (x-2)(x-2.25)/3</label>
+        </div>
+        <strong id="resposta">0.05x^2-0.425x+1.15</strong>
+      </div>
+    </div>
+  </div>
+  <script src="../../js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
